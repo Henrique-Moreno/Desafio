@@ -1,0 +1,90 @@
+.cabecalho{
+    background-color: var(--azul-escuro);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.logo_cabecalho {
+    width: 4em;
+}
+
+.botao_cabecalho {
+    border: none;
+    background: none;
+}
+
+.icone_cabecalho {
+    font-size: 1.7em;
+    color: var(--branco);
+}
+
+.menu__desktop {
+    display: none;
+}
+
+.icones-cabecalho__desktop {
+    display: none;
+}
+
+.link-oecamento-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        background-color: var(--branco);
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+       background-color: var(--azul-escuro);
+       padding: 3.3em;
+       position: relative;
+       right: 1.1%;
+    }
+
+    .menu__desktop {
+        display: flex;
+    }
+
+    .menu-link__desktop {
+        padding: 0 2em;
+        color: var(--azul-escuro);
+        font-weight: 600;
+    }
+
+    .botao_cabecalho {
+        display: none;
+    }
+
+    .icones-cabecalho__desktop {
+        display: flex;
+    }
+
+    .link-oecamento-desktop {
+        display: flex;
+        text-decoration: none;
+        background-color: #4b86f7;
+        padding: .10em 1em;
+        border-radius: 20px;
+        font-family: var(--montserrat);
+        color: var(--branco);
+    }
+
+    .icones__desktop {
+        color: var(--azul-escuro);
+        font-size: 1.1em;
+        padding: 0 1em;
+    }
+
+    .icone_cabecalho {
+        font-size: 1.4em;
+    }
+
+}

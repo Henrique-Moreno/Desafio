@@ -1,0 +1,51 @@
+.formulario {
+    margin: 5rem .80rem;
+}
+
+.formulario__titulo {
+    font-family: var(--poppins);
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--azul);
+    margin-bottom: 2em;
+}
+
+.form-control {
+    border: none;
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--azul-escuro);
+}
+
+.mensagem {
+    border: 1px solid;
+}
+
+.botao {
+    background-color: var(--azul-escuro);
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .formulario {
+        margin: 2rem 3em;
+    }
+
+    .grupo {
+        position: relative;
+        left: 45rem;
+        bottom: 14rem;
+    }
+
+    .form-control {
+        width: 35rem;
+    }
+
+    .botao {
+        position: relative;
+        left: 70rem;
+        bottom: 14rem;
+        background-color: var(--azul-escuro);
+        border: none;
+
+    }
+}

@@ -1,0 +1,47 @@
+.servicos {
+    margin: 5rem .80rem;
+    text-align: center;
+}
+
+.titulo__servicos {
+    font-family: var(--poppins);
+    font-size: 1.1em;
+    font-weight: 700;
+    color: var(--azul);
+    margin-bottom: 2em;
+}
+
+.conteudo__servicos {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo__servicos {
+        position: relative;
+        right: 20rem;
+        top: 8rem;
+        font-size: 2em;
+    }
+    .conteudo__servicos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+    }
+
+    .img__servicos {
+        width: 30%;
+        padding: 2em 2em;
+    }
+
+    .img__servicos-parte2 {
+        width: 90%;
+    }
+
+    .imagens__servico {
+       margin: 2em 0;
+    }
+    
+    .swiper {
+        display: none;
+    }
+}

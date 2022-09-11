@@ -1,0 +1,50 @@
+.missao {
+    background-color: var(--cinza);
+    padding: .50em;
+}
+
+.titulo__missao {
+    color: var(--azul);
+    font-size: 1em;
+    font-family: var(--poppins);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.icone__missao {
+    font-size: 1.5em;
+    color: var(--azul);
+}
+
+.link__missao {
+    background-color: var(--azul-escuro);
+    display: inline-block;
+    padding: .60rem 0;
+    width: 100%;
+    font-family: var(--montserrat);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: .85em;
+    margin-top: 1rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    .missao {
+        display: grid;
+        align-items: center;
+        width: 60%;
+    }
+
+    .img__missao {
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        left: 33%;
+        bottom: 10rem;
+    }
+}

@@ -1,0 +1,52 @@
+.nossa__empresa {
+    text-align: center;
+    margin: 2rem .80rem;
+}
+
+.nossa__empresa--img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.nossa__empresa--titulo {
+    color: var(--azul);
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    margin-bottom: .70rem;
+}
+
+.nossa__empresa--texto {
+    font-family: var(--montserrat);
+    font-size: .85em;
+    color: var(--azul-escuro);
+    margin-top:  .50rem;
+}
+
+.img__missao {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .nossa__empresa {
+        width: 95%;
+        margin: 5rem auto;
+    }
+    .nossa-empresa__conteudo {
+        display: flex;
+        align-items: center;
+    }
+
+    .nossa__empresa--titulo {
+        text-align: left;
+        position: relative;
+        top: 5rem;
+        padding-left: .20rem;
+    }
+
+    .nossa__empresa--img {
+        width: 60%;
+        margin: 0 1.3rem;
+    }
+}

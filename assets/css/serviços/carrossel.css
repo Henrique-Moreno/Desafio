@@ -1,0 +1,11 @@
+.swiper-slide img {
+    width: 50%;
+ }
+ 
+ .swiper-button-prev, .swiper-button-next {
+    display: none;
+ }
+ 
+ .swiper-pagination {
+    padding: 1em 0;
+ }

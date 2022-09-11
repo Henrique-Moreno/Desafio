@@ -1,0 +1,29 @@
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 40vh;
+ 
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+ 
+.menu-lateral--ativo {
+   left: 0;
+   transition: .25s;
+   background-color: var(--branco);
+}
+
+.menu-lateral__link {
+   text-decoration: none;
+   color: var(--azul-escuro);
+   padding-left: 2rem;
+   padding-top: 1.7rem;
+   font-family: var(--montserrat);
+   font-weight: 500;
+}
+
+.link-orcamento {
+    color: #4b86f7;
+}

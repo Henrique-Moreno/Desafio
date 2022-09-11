@@ -1,0 +1,47 @@
+@import url(cabeçalho/cabecalho.css);
+@import url(menu-lateral/menu_leteral.css);
+@import url(chamada.css);
+@import url(nossa-empresa/nossa_empresa.css);
+@import url(nossa-empresa/missao.css);
+@import url(serviços/servico.css);
+@import url(serviços/carrossel.css);
+@import url(formulario/formulario.css);
+@import url(rodape/rodape.css);
+
+:root {
+    --azul-escuro: #212f46;
+    --azul: #4b86f7;
+    --cinza: #e8effe;
+    --branco:  #f2f2f2;
+
+    /* fontes */
+
+    --montserrat: 'Montserrat', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--branco);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
